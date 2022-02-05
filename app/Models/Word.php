@@ -11,9 +11,15 @@ class Word extends Model
 {
     use HasFactory;
 
+    protected $hidden = [
+        'id',
+        'created_at',
+        'updated_at',
+    ];
+
     public function word_category()
     {
-        return $this->hasOne(WordCategory::class, 'word_category_id', 'id');
+        return $this->hasOne(WordCategory::class, 'id', 'word_category_id');
     }
 
     public function video()
