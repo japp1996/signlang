@@ -13,8 +13,9 @@ class CreateWordCategoryTable extends Migration
      */
     public function up()
     {
-        Schema::create('word_category', function (Blueprint $table) {
+        Schema::create('word_categories', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
             $table->timestamps();
         });
     }
@@ -26,6 +27,6 @@ class CreateWordCategoryTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('word_category');
+        Schema::dropIfExists('word_categories');
     }
 }
