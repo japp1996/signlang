@@ -17,15 +17,15 @@ class VideosSeeder extends Seeder
         $videos = [
             [
                 "name" => "Modulo 1 Tomo 1",
-                "url" => "https://www.youtube.com/embed/-P-uDSykdmQ",
+                "url" => "https://www.youtube.com/embed/-P-uDSykdmQ?controls=0&rel=0&modestbranding=1&iv_load_policy=3&disablekb=1&color=blue",
             ],
             [
                 "name" => "Modulo 2 Tomo 1",
-                "url" => "https://www.youtube.com/embed/8_9LJ1t_47M",
+                "url" => "https://www.youtube.com/embed/8_9LJ1t_47M??controls=0&rel=0&modestbranding=1&iv_load_policy=3&disablekb=1&color=blue",
             ],
             [
                 "name" => "Módulo 3 Tomo 1",
-                "url" => "https://www.youtube.com/embed/zxL7YwFOeXw",
+                "url" => "https://www.youtube.com/embed/zxL7YwFOeXw??controls=0&rel=0&modestbranding=1&iv_load_policy=3&disablekb=1&color=blue",
             ],
         ];
 
